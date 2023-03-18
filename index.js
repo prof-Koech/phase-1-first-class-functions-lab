@@ -1,5 +1,5 @@
 // Code your solution in this file!
-const drivers = ['Kenn', 'Newton', 'Collins', 'Constant', 'Ian'];
+const drivers = ['Antonia', 'Nuru', 'Amari', 'Mo'];
 const returnFirstTwoDrivers = (drivers)=>([drivers[0],drivers[1]])
 // alternatively 
 // const returnFirstTwoDrivers = (drivers)=>{
@@ -26,10 +26,10 @@ function createFareMultiplier(myDestin){
 // function fareTripler(myfare){
 //     return myfare*3;
 // }
-//The above 2 functions w return  DoubleFare and TrippleFare instead use createFaremultiplier which is required to pass tests in Test.js
+//The two above functions work and return  DoubleFare and TrippleFare but we can use createFaremultiplier as indicated in Test.js
 
-const fareDoubler = createFareMultiplier(2); //This implements first class function and passes an argument directly to CreatFareMultiplier
-
+const fareDoubler = createFareMultiplier(2);
+//The above implements first class function and passes an argument directly to CreatFareMultiplier
 const fareTripler = createFareMultiplier(3);
  //use arrow functions
 //  1) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument
